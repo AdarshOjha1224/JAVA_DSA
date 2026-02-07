@@ -10,5 +10,8 @@ public class even_odd {
 
         if (x%2 == 0) System.out.println("Given number is even !!");
         else System.out.println("Given number is odd !!");
+
+        // TERNARY OPERATOR
+        System.out.println(x + ((x%2==0) ? " Even" : " Odd"));
     }
 }
