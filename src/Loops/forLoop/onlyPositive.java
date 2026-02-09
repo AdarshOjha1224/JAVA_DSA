@@ -1,4 +1,4 @@
-package Loops;
+package Loops.forLoop;
 
 public class onlyPositive {
     public static void main(String[] args) {
