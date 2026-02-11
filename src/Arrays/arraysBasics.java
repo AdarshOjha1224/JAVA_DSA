@@ -23,8 +23,8 @@ public class arraysBasics {
         arr[3] = 40 ;
         arr[4] = 50 ;
 
-        for(int i = 0 ; i<x.length ; i++){
-            System.out.print(x[i] + " ");
+        for(int i = 0 ; i<arr.length ; i++){
+            System.out.print(arr[i] + " ");
         }
 
 
