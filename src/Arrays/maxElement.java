@@ -14,7 +14,9 @@ public class maxElement {
         for(int i = 0 ; i < n ; i++){
             arr[i] = sc.nextInt();
         }
-//        int max = Integer.MAX_VALUE;
+
+
+//      int max = Integer.MIX_VALUE;
         int max = arr[0];
 
         for(int i = 0 ; i<n ; i++){
