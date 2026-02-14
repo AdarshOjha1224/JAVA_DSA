@@ -3,7 +3,7 @@
 package Arrays;
 import java.util.Scanner;
 
-public class searchElement {
+public class linearSearch {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] x = {2,5,8,-34,76,18,-45,-3,23,83,94};
