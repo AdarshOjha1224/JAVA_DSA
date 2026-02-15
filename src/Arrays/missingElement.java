@@ -10,6 +10,7 @@ public class missingElement {
 
         for(int ele : arr) arraySum += ele;
 
+
         System.out.println("The missing element : " + (int)(sum-arraySum));
     }
 }
