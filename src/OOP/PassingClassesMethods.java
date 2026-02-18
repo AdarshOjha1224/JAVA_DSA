@@ -3,7 +3,7 @@ package OOP;
 public class PassingClassesMethods {
 
     public static class Car{
-        // these are the attributs or members of this class
+        // these are the attributes or members of this class
         int seats;
         String name ;
         double length ;
