@@ -1,7 +1,7 @@
 package OOP;
 import java.util.Scanner;
 
-// if i write this class outside the below class then we can use it in other files. which means it is in OOP Package.
+// if I write this class outside the below class then we can use it in other files. which means it is in OOP Package.
 
 
 class Student{
@@ -19,7 +19,7 @@ class Student{
 public class UserDefinedDataTypes {
     // Objects are real-life entities and class is a blueprint.
 
-//  If i write this class inside then it is bounded to this file only.
+//  If I write this class inside then it is bounded to this file only.
 
 //    public static class Student{
 //        String name ;
