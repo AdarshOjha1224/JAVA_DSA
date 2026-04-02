@@ -14,9 +14,9 @@ public class IncreDecre {
 
         int x = 10 ;
         int y = x++ ;
-        System.out.println(x+ " " +y);
+        System.out.println(x+ " " +y); // 11 10
         y = ++x ;
-        System.out.println(x+ " " +y);
+        System.out.println(x+ " " +y); // 12 12
 
     }
 }
