@@ -16,7 +16,6 @@ public class CharDataType {
 
         System.out.println(b);
         System.out.println((int)b);
-
         System.out.println((int)p);
 
 //        for (int i = 0 ; i<=150 ; i++)
@@ -26,7 +25,7 @@ public class CharDataType {
 
         int s = 49;
         char t = (char)s;
-        System.out.println("Character at ascii value 49 is " + t);
+        System.out.println("Character at ASCII value 49 is " + t);
 
         // NEW CONCEPT
         char r = 'c';

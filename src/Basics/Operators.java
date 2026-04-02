@@ -8,7 +8,7 @@ public class Operators {
         int c = a%b ;
         System.out.println(c);
 
-        // is a<b then a%b = a
+        // If a<b then a%b = a
         // a%(-b) = a%b
         // (-a)%b = -(a%b)
         // for example -> (-39)%(-10) = (-39)%10 = -(39%10) = -9
