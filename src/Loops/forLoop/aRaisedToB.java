@@ -10,6 +10,7 @@ public class aRaisedToB {
         System.out.print("Enter the Power : ");
         int b = sc.nextInt();
         int pow = 1 ;
+        System.out.println(Integer.MAX_VALUE);
 
         for(int i = 1 ; i<=b ; i++){
             pow *= a ;
