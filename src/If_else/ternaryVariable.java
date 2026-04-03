@@ -10,10 +10,5 @@ public class ternaryVariable {
         System.out.println((n%2==0) ? "Even" : "Odd");
         System.out.println(a);
 
-
-//        To find greatest number in three inputs
-//        int a = (x>y) ? ((x>z) ? x : z) : ((y>z) ? y : z) ;
-//        System.out.println("The Greatest Number is : " + a);
-
     }
 }
