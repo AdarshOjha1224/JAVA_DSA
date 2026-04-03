@@ -7,10 +7,10 @@ public class TakeR_OutZorNot {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the value : ");
         double n = sc.nextDouble();
+        System.out.println((int)n);
 
-        if (n == (int)n) System.out.println("Its Not a Integer !!");
+        if (n == (int)n) System.out.println("Its a Integer !!");
         // or if (n-(int)n > 0) then the output for -ve value gonna wrong.
-
-        else System.out.println("Its a Integer !!");
+        else System.out.println("Its not a Integer !!");
     }
 }
