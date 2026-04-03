@@ -12,7 +12,7 @@ public class Hori_flippedTriangleVerticallyFlipped {
             for (int j = 1 ; j < i ; j++){
                 System.out.print("  ");
             }
-            for(int j = 1 ; j < n+1-i ; j++){
+            for(int j = 1 ; j <= n+1-i ; j++){
                 System.out.print("* ");
             }
             System.out.println();
