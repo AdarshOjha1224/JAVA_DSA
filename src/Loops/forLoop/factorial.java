@@ -13,6 +13,6 @@ public class factorial {
             fac *= i ;
         }
 
-        System.out.println("The value of factorial : " + fac);
+        System.out.println(n + "! = " + fac);
     }
 }

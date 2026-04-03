@@ -7,11 +7,12 @@ public class factTillN {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number : ");
         int n = sc.nextInt();
-        int fac = 1 ;
+        int fac = 1 , count = 1;
 
-        for(int i=1 ; i<=n ; i++){
-            fac *= i ;
-            System.out.println("The value of factorial " + i  + " is " + fac);
+        for(int i=0 ; i<=n ; i++){
+            System.out.println(i  + "! = " + fac);
+            fac *= count;
+            count++;
         }
     }
 }
