@@ -10,8 +10,8 @@ public class Profit_Loss {
         System.out.print("Enter the Selling Price : ");
         double sp = sc.nextInt();
 
-        if(sp>cp) System.out.println("PROFIT of " + (sp-cp)  + "\n Profit% : " + (sp-cp)/cp * 100);
-        else if (sp<cp) System.out.println("LOSS of " + (cp-sp) + "\n Loss% : " + (cp-sp)/cp * 100);
+        if(sp>cp) System.out.println("PROFIT of " + (sp-cp)  + "\nProfit % : " + (sp-cp)/cp * 100);
+        else if (sp<cp) System.out.println("LOSS of " + (cp-sp) + "\nLoss % : " + (cp-sp)/cp * 100);
         else System.out.println("NO PROFIT NO LOSS");
     }
 }
