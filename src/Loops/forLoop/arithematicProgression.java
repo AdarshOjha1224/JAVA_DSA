@@ -12,8 +12,13 @@ public class arithematicProgression {
         System.out.print("Enter the Total number of terms : ");
         int n = sc.nextInt();
 
-        for(int i = a ; i <= (a+(n-1)*d) ; i += d) {
-            System.out.print(i + " ");
+//        for(int i = a ; i <= (a+(n-1)*d) ; i += d) {
+//            System.out.print(i + " ");
+//        }
+
+        // Find-Out Smarter way ->>>>
+        for(int i = 1 ; i <= n ; i++){
+            System.out.print((a+(i-1)*d) + " ");
         }
     }
 }

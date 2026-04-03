@@ -12,7 +12,6 @@ public class factorial {
         for(int i=1 ; i<=n ; i++){
             fac *= i ;
         }
-
         System.out.println(n + "! = " + fac);
     }
 }
