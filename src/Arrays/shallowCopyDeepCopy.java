@@ -6,7 +6,7 @@ public class shallowCopyDeepCopy {
     public static void main(String[] args) {
 
         // Shallow copy - change in copied array will also change the original
-        // Deep copy - Any change in copies array will not affect the original
+        // Deep copy - Any change in copied array will not affect the original
 
         int[] arr = {1,2,3,4,5}; // 4 x 5 = 20 bytes
         int[] x = arr;  // x is Shallow copy of arr
@@ -23,6 +23,8 @@ public class shallowCopyDeepCopy {
         for(int i = 0 ; i < arr.length ; i++){
             brr[i] = arr[i];
         }
+        brr[3] = 69 ;
+        System.out.println(arr[3]);
         // brr is deep copy
 
     }
