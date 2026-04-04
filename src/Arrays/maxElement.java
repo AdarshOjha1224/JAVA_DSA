@@ -9,16 +9,12 @@ public class maxElement {
         System.out.print("Enter the count of number : ");
         int n = sc.nextInt();
         int[] arr = new int[n];
-
         System.out.print("Enter the values :");
         for(int i = 0 ; i < n ; i++){
             arr[i] = sc.nextInt();
         }
 
-
-//      int max = Integer.MIX_VALUE;
         int max = arr[0];
-
         for(int i = 0 ; i<n ; i++){
             if(arr[i]>max) max = arr[i];
         }

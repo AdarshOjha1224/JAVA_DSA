@@ -4,8 +4,6 @@ public class rotateArray {
 
     public static void reverse(int[] arr , int i , int j){
 
-        // LEFT SHIFTING (Anti-clockWise)
-
         while(i<j){
             int temp = arr[i];
             arr[i] = arr[j];
@@ -14,6 +12,9 @@ public class rotateArray {
             j--;
         }
     }
+
+    // LEFT SHIFTING
+
     public static void main(String[] args) {
 
         int[] arr = {1, 2, 3, 4, 5, 6, 7};
