@@ -9,10 +9,12 @@ public class MergeTwoSortedArrays {
         int[] b = {2,4,6,8,10};
         int[] c = new int[a.length+b.length];
 
-        // Ghatiya tareeka (High complexity)
+        // Ghatiya tareeka (High complexity) ->>
+
 //        for(int i = 0 ; i < a.length ; i++) c[i] = a[i];
 //        for(int i = a.length ; i < b.length +  a.length ; i++) c[i] = b[i-a.length];
 //        Arrays.sort(c);
+
         merge(a,b,c);
         for(int ele : c) System.out.print(ele + " ");
     }
