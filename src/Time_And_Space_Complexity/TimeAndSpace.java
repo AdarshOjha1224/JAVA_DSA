@@ -2,7 +2,9 @@ package Time_And_Space_Complexity;
 
 public class TimeAndSpace {
 //    Faster code is proportional to Number of lines.
+
 //    If number of Operation is n then time complexity is O(n).
+
 //    O(k.n) = O(n)
 //    O(n +|- k) = O(n)
 //    O(constant) = O(1)
