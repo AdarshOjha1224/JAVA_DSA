@@ -7,8 +7,10 @@ public class TimeAndSpace {
 //    O(n +|- k) = O(n)
 //    O(constant) = O(1)
 
+
 //    Space Complexity - Total Space taken to solve the problem
 //    Auxiliary Space - Extra Space taken to solve the problem
+
 
 //    Which one is fast ?
 //    1 < log n < n < n.log n < n^2 < n^3 <<< 2^n
