@@ -15,7 +15,11 @@ public class TimeAndSpace {
 
 
 //    Which one is fast ?
-//    1 < log n < n < n.log n < n^2 < n^3 <<< 2^n
-//    0(1) > 0(log n) > 0(n^1/2) > 0(n) > 0(n.log n) > 0(n^2) > 0(n^3) >> 0(2^n)
+//    smallest to largest by value :-
+//             1 < log n < n < n.log n < n^2 < n^3 <<< 2^n
+
+
+//    Fastest to slowest by time complexity :-
+//             0(1) > 0(log n) > 0(n^1/2) > 0(n) > 0(n.log n) > 0(n^2) > 0(n^3) >> 0(2^n)
 
 }
