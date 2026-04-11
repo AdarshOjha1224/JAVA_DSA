@@ -18,7 +18,6 @@ public class _5_SelectionSort {
             arr[mindx] = temp;
         }
     }
-
     public static void main(String[] args) {
         int[] arr = {3,-2,5,10,7,-1,3,8,1,4,2};
         _2_BubbleSort.print(arr);
