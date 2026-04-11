@@ -19,14 +19,10 @@ public class _3_Reverse_BubbleSort {
         }
     }
 
-    public static void print(int[] arr) {
-        _2_BubbleSort.print(arr);
-    }
-
     public static void main(String[] args) {
         int[] arr = {5, 4, 1, -1, 4, 9, -2, 0, 3, 2, 8};
-        print(arr);
+        _2_BubbleSort.print(arr);
         BubbleSortReverse(arr);
-        print(arr);
+        _2_BubbleSort.print(arr);
     }
 }
