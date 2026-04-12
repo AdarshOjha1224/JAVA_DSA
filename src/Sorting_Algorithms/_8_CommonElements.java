@@ -2,7 +2,7 @@ package Sorting_Algorithms;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class CommonElements {
+public class _8_CommonElements {
     public static ArrayList<Integer> commEle(int[] a, int[] b) {
         ArrayList<Integer> arr = new ArrayList<>();
         Arrays.sort(a);
