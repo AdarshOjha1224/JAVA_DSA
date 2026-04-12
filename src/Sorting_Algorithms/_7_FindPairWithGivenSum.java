@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 // Sorted array is given , finding pairs of number which is equal to target.
 
-public class FindPairWithGivenSum {
+public class _7_FindPairWithGivenSum {
     public static void pair(int[] arr , int target){
         int n  = arr.length;
         int i =  0;
