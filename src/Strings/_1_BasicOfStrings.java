@@ -47,5 +47,10 @@ public class _1_BasicOfStrings {
         System.out.println("Adarsh" + (10+20)); // Adarsh30
         System.out.println('A' + 2 + "Adarsh" ); // 67Adarsh
 
+        // Converting integer into string.
+        int num = 2412;
+        String word = ""; // empty string
+        word += num ;
+        System.out.println(word);
     }
 }
