@@ -10,6 +10,7 @@ public class _2_BuiltInMethods {
         System.out.println(str.indexOf('a')); // 2 first appearance
         System.out.println(str.lastIndexOf('a')); // 10 last appearance
         System.out.println(str.indexOf('x')); // -1 not in the string
+        System.out.println(str.replace(" ",""));
 
         System.out.println(str.toLowerCase()); // adarsh ojha
         System.out.println(str.toUpperCase()); // ADARSH OJHA
