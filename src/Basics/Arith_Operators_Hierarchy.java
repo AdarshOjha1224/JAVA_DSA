@@ -3,7 +3,6 @@ package Basics;
 public class Arith_Operators_Hierarchy {
     public static void main(String[] args) {
 
-
         // The priority of [ / , * , % ] > [ + , - ].
         // check first the operators according to the above rule
         // If the operators are from one side the apply the rule
