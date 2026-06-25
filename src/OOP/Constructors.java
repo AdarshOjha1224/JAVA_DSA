@@ -35,6 +35,7 @@ public class Constructors {
         c1.name = "Defender";
         c1.price = 15000000;
         c1.print();
+
         Car c2 = new Car(400000,"Tata Nano");
         c2.print();
         Car c3 = new Car(1500000,"Thar");
