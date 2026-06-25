@@ -8,7 +8,6 @@ public class Constructors {
 //     CONSTRUCTOR -> Same name constructors with different parameters
 
         Car(){ // Default Constructor -> nahi likhte toh bhi yahi run krtaa
-
         }
 
         Car(int x, String y){
@@ -28,7 +27,6 @@ public class Constructors {
     }
 
 //  ORDER IS SENSITIVE IN METHODS
-
 
     public static void main(String[] args) {
 
