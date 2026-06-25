@@ -38,6 +38,7 @@ public class Constructors {
 
         Car c2 = new Car(400000,"Tata Nano");
         c2.print();
+
         Car c3 = new Car(1500000,"Thar");
         c3.print();
         Car c4 = new Car("Lord Alto",500000);
