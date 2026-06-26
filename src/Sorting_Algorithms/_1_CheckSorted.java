@@ -17,5 +17,6 @@ public class _1_CheckSorted {
 
         int[] arr2 = {2,1,6,3,6,7,8,9};
         System.out.println(isSorted(arr2));
+
     }
 }
