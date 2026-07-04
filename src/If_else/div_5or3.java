@@ -19,5 +19,7 @@ public class div_5or3 {
         else if (n%5==0) System.out.println("Number is divisible by 5");
         else System.out.println("Number is not divisible by 3 & 5");
 
+
+
     }
 }
