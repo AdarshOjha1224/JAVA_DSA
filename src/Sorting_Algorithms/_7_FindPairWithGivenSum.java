@@ -5,7 +5,6 @@ import java.util.Arrays;
 
 public class _7_FindPairWithGivenSum {
     public static void pair(int[] arr , int target){
-
         int n  = arr.length;
         int i =  0;
         int j = n-1;
