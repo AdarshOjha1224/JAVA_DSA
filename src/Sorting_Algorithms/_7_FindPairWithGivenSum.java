@@ -5,9 +5,11 @@ import java.util.Arrays;
 
 public class _7_FindPairWithGivenSum {
     public static void pair(int[] arr , int target){
+
         int n  = arr.length;
         int i =  0;
         int j = n-1;
+
         while(i<j) {
             if (arr[i] + arr[j] == target) {
                 System.out.println("(" + arr[i] + "," + arr[j] + ")");
