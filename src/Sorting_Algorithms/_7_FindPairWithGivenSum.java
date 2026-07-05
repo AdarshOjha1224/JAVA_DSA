@@ -9,7 +9,6 @@ public class _7_FindPairWithGivenSum {
         int n  = arr.length;
         int i =  0;
         int j = n-1;
-
         while(i<j) {
             if (arr[i] + arr[j] == target) {
                 System.out.println("(" + arr[i] + "," + arr[j] + ")");
@@ -20,7 +19,6 @@ public class _7_FindPairWithGivenSum {
             else if (arr[i] + arr[j] < target) i++;
 
         }
-
     }
 
     public static void main(String[] args) {
